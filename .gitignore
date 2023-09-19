@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Build output directory
+dist/
+
+# Docker volume persistence directory
+.docker/
